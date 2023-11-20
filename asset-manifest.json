@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/adedolapoadegboye/quotery/static/css/main.4e130801.css",
-    "main.js": "/adedolapoadegboye/quotery/static/js/main.53c5feee.js",
-    "static/js/787.2919cb4d.chunk.js": "/adedolapoadegboye/quotery/static/js/787.2919cb4d.chunk.js",
-    "index.html": "/adedolapoadegboye/quotery/index.html",
-    "main.4e130801.css.map": "/adedolapoadegboye/quotery/static/css/main.4e130801.css.map",
-    "main.53c5feee.js.map": "/adedolapoadegboye/quotery/static/js/main.53c5feee.js.map",
-    "787.2919cb4d.chunk.js.map": "/adedolapoadegboye/quotery/static/js/787.2919cb4d.chunk.js.map"
+    "main.css": "/quotery/static/css/main.4e130801.css",
+    "main.js": "/quotery/static/js/main.a3d8546f.js",
+    "static/js/787.2919cb4d.chunk.js": "/quotery/static/js/787.2919cb4d.chunk.js",
+    "index.html": "/quotery/index.html",
+    "main.4e130801.css.map": "/quotery/static/css/main.4e130801.css.map",
+    "main.a3d8546f.js.map": "/quotery/static/js/main.a3d8546f.js.map",
+    "787.2919cb4d.chunk.js.map": "/quotery/static/js/787.2919cb4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e130801.css",
-    "static/js/main.53c5feee.js"
+    "static/js/main.a3d8546f.js"
   ]
 }
