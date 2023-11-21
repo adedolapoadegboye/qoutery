@@ -7,8 +7,8 @@ import { quotes } from "../Data/Quotes";
 
 const Quoter = () => {
 
-  const randomOne = Math.floor(Math.random() * colors.length);
-  const randomTwo = Math.floor(Math.random() * quotes.length);
+  const randomOne = Math.floor(Math.random() * (colors.length-1));
+  const randomTwo = Math.floor(Math.random() * (quotes.length-1));
 
   const defaultColor = colors[randomOne]["paletteName"];
   const defaultQuote = quotes[randomTwo]["quote"];
@@ -20,9 +20,9 @@ const Quoter = () => {
 
 
   function handleClick() {
-    setColor(colors[randomOne]["paletteName"]);
-    setQuote(quotes[randomTwo]["quote"]);
-    setAuthor(quotes[randomTwo]["author"]);
+    setColor(colors[randomOne+1]["paletteName"]);
+    setQuote(quotes[randomTwo+1]["quote"]);
+    setAuthor(quotes[randomTwo+1]["author"]);
   }
 
   console.log(nextColor, nextQuote, nextAuthor, randomOne, randomTwo)
@@ -38,7 +38,7 @@ const Quoter = () => {
  "
         >
           <BiSolidQuoteSingleLeft size={40} className="mx-2 lg:mx-15" />
-          <h1 className="mx-4 lg:mx-10" id="text">{nextQuote}</h1>
+          <h1 className="mx-4 lg:mx-20" id="text">{nextQuote}</h1>
         </div>
         <div
           className="text-bold font-serif subpixel-antialiased text-sm md:text-2xl text-right px-4 py-4
