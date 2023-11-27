@@ -6,7 +6,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://github.com/adedolapoadegboye/quotery/blob/main/Image%202023-11-26%20at%207.30%20PM.jpeg" alt="project-screenshot" width="400" height="200/">
+<img src="https://github.com/adedolapoadegboye/quotery/blob/main/Image%202023-11-26%20at%207.30%20PM.jpeg" alt="project-screenshot" width="800" height="400/">
 
   
   
